@@ -1,0 +1,7 @@
+@import "./variables";
+img {
+    width: 300px;
+}
+.container {
+   @include forFlex;
+}

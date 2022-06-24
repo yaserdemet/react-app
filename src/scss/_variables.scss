@@ -5,5 +5,14 @@ $lightPink: #9FC131;
 $hardal: #DBF227;
 $olive: #D6D58E;
 
+@mixin forFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
 
 
